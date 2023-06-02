@@ -8,10 +8,10 @@ import logging
 class BackendList:
 	def __init__(self):
 		self.servers=[]
-		self.servers.append(('127.0.0.1',8889))
-		self.servers.append(('127.0.0.1',8000))
-		self.servers.append(('127.0.0.1',8001))
-#		self.servers.append(('127.0.0.1',9005))
+		self.servers.append(('127.0.0.1',9002))
+		self.servers.append(('127.0.0.1',9003))
+		self.servers.append(('127.0.0.1',9004))
+		self.servers.append(('127.0.0.1',9005))
 		self.current=0
 	def getserver(self):
 		s = self.servers[self.current]
